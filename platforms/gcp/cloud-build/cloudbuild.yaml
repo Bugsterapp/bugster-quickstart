@@ -19,7 +19,8 @@ steps:
           "environment_url": "$DEPLOYMENT_URL",
           "environment": "production"
         }
-
+options:
+    logging: CLOUD_LOGGING_ONLY
 substitutions:
   # Estas variables se reemplazan en cada build
   _PROJECT_ID: "proj_xxx"
