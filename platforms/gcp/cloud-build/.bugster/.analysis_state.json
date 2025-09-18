@@ -1,0 +1,12 @@
+{
+  "status": "failed",
+  "started_at": "2025-09-18T16:47:43.091276",
+  "version": "1.0",
+  "completed": false,
+  "failed_at": "2025-09-18T16:47:56.510212",
+  "duration_seconds": 13.418943,
+  "error": {
+    "type": "BugsterError",
+    "message": "Test cases not found. Please try again."
+  }
+}

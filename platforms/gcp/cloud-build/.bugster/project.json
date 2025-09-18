@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "timestamp": 1758224863101,
+    "version": 2,
+    "git": {
+      "branch": "feature-2",
+      "commit": "1a3e3a09aea6bff6d8892b538b7ef637e40bc2b6"
+    }
+  },
+  "data": {
+    "frameworks": [
+      {
+        "id": "next",
+        "name": "Next.js",
+        "dir_path": "/Users/nacho/Bugster/bugster-quickstart/platforms/gcp/cloud-build/"
+      }
+    ]
+  }
+}
