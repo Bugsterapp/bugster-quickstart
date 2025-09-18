@@ -70,7 +70,7 @@ _DEPLOYMENT_URL	https://preview.example.com	Public URL of your PR preview/deploy
 _BRANCH_NAME	main	Target branch (fixed to main)
 
 _BUGSTER_API_KEY, _PROJECT_ID and _ORG_ID can be found in your project Settings under integrations tab.
-
+ 
 Then, these variables are set once in Cloud Build → Trigger → Substitution variables.
 
 3. Create the Trigger in GCP
