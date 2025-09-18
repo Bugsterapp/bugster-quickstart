@@ -8,7 +8,7 @@ steps:
       - '-H'
       - 'Content-Type: application/json'
       - '-H'
-      - 'X-API-KEY: _BUGSTER_API_KEY'
+      - 'X-API-KEY: ${_BUGSTER_API_KEY}'
       - '--data'
       - |
         {
