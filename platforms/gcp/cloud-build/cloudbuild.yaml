@@ -1,0 +1,28 @@
+steps:
+  - name: 'curlimages/curl'
+    entrypoint: 'curl'
+    args:
+      - '-X'
+      - 'POST'
+      - 'https://api.bugster.app/webhooks/integrations/custom'
+      - '-H'
+      - 'Content-Type: application/json'
+      - '-H'
+      - 'X-API-KEY: _BUGSTER_API_KEY'
+      - '--data'
+      - |
+        {
+          "deployment_state": "success",
+          "project_id": "$PROJECT_ID",
+          "organization_id": "$ORG_ID",
+          "branch": "$BRANCH_NAME",
+          "environment_url": "$DEPLOYMENT_URL",
+          "environment": "production"
+        }
+
+substitutions:
+  # Estas variables se reemplazan en cada build
+  _PROJECT_ID: "proj_xxx"
+  _ORG_ID: "org_xxx"
+  _DEPLOYMENT_URL: "https://preview.example.com"
+  _BRANCH_NAME: "main"
