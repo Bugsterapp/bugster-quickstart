@@ -18,7 +18,7 @@ base_url: "http://localhost:3000"
 # https://vercel.com/d?to=/[team]/[project]/settings/deployment-protection&title=Deployment+Protection+settings
 # x-vercel-protection-bypass: ${VERCEL_BYPASS_SECRET}
 
-
+ 
 # Test Execution Preferences
 # Uncomment and modify the options below to customize test execution behavior.
 # CLI options will override these settings when specified.
