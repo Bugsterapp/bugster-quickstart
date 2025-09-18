@@ -21,9 +21,3 @@ steps:
         }
 options:
     logging: CLOUD_LOGGING_ONLY
-substitutions:
-  # Estas variables se reemplazan en cada build
-  _PROJECT_ID: "proj_xxx"
-  _ORG_ID: "org_xxx"
-  _DEPLOYMENT_URL: "https://preview.example.com"
-  _BRANCH_NAME: "main"
