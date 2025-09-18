@@ -7,4 +7,4 @@ steps:
 - Click on a specific user from the list
 - Verify that the user is redirected to the user details page
 - Verify that the user details are displayed correctly
-expected_result: User should be redirected to the specific user's details page
+expected_result: User should be redirected to the specific user's details page 
