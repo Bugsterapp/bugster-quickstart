@@ -13,10 +13,10 @@ steps:
       - |
         {
           "deployment_state": "success",
-          "project_id": "$PROJECT_ID",
-          "organization_id": "$ORG_ID",
-          "branch": "$BRANCH_NAME",
-          "environment_url": "$DEPLOYMENT_URL",
+          "project_id": "${_PROJECT_ID}",
+          "organization_id": "${_ORG_ID}",
+          "branch": "${_BRANCH_NAME}",
+          "environment_url": "${_DEPLOYMENT_URL}",
           "environment": "production"
         }
 options:
