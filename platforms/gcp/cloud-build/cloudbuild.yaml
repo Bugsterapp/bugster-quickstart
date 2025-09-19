@@ -8,22 +8,16 @@ steps:
       - '-H'
       - 'Content-Type: application/json'
       - '-H'
-      - 'X-API-KEY: _BUGSTER_API_KEY'
+      - 'X-API-KEY: ${_BUGSTER_API_KEY}'
       - '--data'
       - |
         {
           "deployment_state": "success",
-          "project_id": "$PROJECT_ID",
-          "organization_id": "$ORG_ID",
-          "branch": "$BRANCH_NAME",
-          "environment_url": "$DEPLOYMENT_URL",
+          "project_id": "${_PROJECT_ID}",
+          "organization_id": "${_ORG_ID}",
+          "branch": "${_BRANCH_NAME}",
+          "environment_url": "${_DEPLOYMENT_URL}",
           "environment": "production"
         }
 options:
     logging: CLOUD_LOGGING_ONLY
-substitutions:
-  # Estas variables se reemplazan en cada build
-  _PROJECT_ID: "proj_xxx"
-  _ORG_ID: "org_xxx"
-  _DEPLOYMENT_URL: "https://preview.example.com"
-  _BRANCH_NAME: "main"

@@ -1,0 +1,10 @@
+name: User details page navigation
+page: /dashboard/users
+page_path: app/dashboard/users/page.tsx
+task: Navigate from users list to a specific user's details page
+steps:
+- Navigate to the dashboard users page
+- Click on a specific user from the list
+- Verify that the user is redirected to the user details page
+- Verify that the user details are displayed correctly
+expected_result: User should be redirected to the specific user's details page 
